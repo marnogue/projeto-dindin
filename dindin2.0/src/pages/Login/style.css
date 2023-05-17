@@ -1,0 +1,139 @@
+main {
+  display: flex;
+  align-items: center;
+}
+
+.lateral {
+  background-image: url('../../assets/img/sidebar.png');
+  width: 500px;
+  height: 100vh;
+
+  color: #034a2a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lateral-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.lateral-titulo h1 {
+  text-align: center;
+  font-size: 24px;
+  width: 388px;
+}
+
+.formulario-login {
+  height: 100vh;
+  width: calc(100vw - 500px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Nunito', sans-serif;
+  color: rgba(52, 64, 84, 1);
+
+}
+
+.formulario-login h2 {
+  margin-bottom: 58px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formulario-login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario-login input {
+  margin-top: 6px;
+  width: 344px;
+  height: 44px;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 10px 14px;
+
+}
+
+.formulario-login input::placeholder {
+  padding: 10px 14px;
+}
+
+.formulario-login label {
+  font-weight: 600;
+  font-family: 14px;
+}
+
+.label-email-login {
+  margin-right: 300px;
+}
+
+.formulario-login .senha-login {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario-login a {
+  color: #DA0175;
+}
+
+.formulario-login button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  margin-top: 45px;
+  margin-bottom: 15px;
+  width: 160px;
+  height: 33px;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #ffff;
+  background: #DA0175;
+  cursor: pointer;
+}
+
+.formulario-login button:hover {
+  opacity: 0.9;
+}
+
+.senha-login {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 165px;
+}
+
+.formulario-login p {
+  font-size: 14px;
+}
+
+.erro-login {
+  position: absolute;
+  bottom: 347px;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(204, 72, 72);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.imagem-olho-login {
+  position: absolute;
+  right: 310px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.senha-login input {
+  position: relative;
+}

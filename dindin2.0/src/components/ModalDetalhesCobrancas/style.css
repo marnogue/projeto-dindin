@@ -1,0 +1,68 @@
+.container-modal-fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+
+    right: 0;
+    bottom: 0;
+}
+
+.modal-detalhes-cobranca {
+    position: relative;
+    width: 600px;
+    height: 461px;
+
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px 50px;
+}
+
+.corpo-detalhes-cobranca {
+    margin-top: 10px;
+}
+
+.fixo {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3f3f55;
+
+    margin-bottom: 10px;
+}
+
+.variavel {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3f3f55;
+}
+
+.descricao,
+.vencimento-e-valor,
+.Id-e-Status {
+    margin-top: 24px;
+}
+
+.vencimento-e-valor,
+.Id-e-Status {
+    display: flex;
+    width: 100%;
+}
+
+.vencimento,
+.IdCobranca {
+    width: 243px;
+}
+
+.descricao {
+    width: 489px;
+    height: 63px;
+}

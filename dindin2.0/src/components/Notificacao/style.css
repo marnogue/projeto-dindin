@@ -1,0 +1,34 @@
+.container-notificacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 54px;
+    background: #C3D4FE;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.container-notificacao span {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14px;
+    color: #243F80;
+}
+
+.conteudo-notificacao-esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-notificacao-esquerda img {
+    margin-right: 12px;
+}
+
+.fechar-notificacao-icone {
+    margin-left: 40px;
+    cursor: pointer;
+}

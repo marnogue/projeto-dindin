@@ -1,0 +1,140 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 32px 80px 37px 80px;
+}
+
+.conteudo-box {
+    width: 360px;
+    height: 397px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    background: #FFFFFF;
+}
+
+.conteudo-maior {
+    display: flex;
+    justify-content: center;
+    padding: 0px 80px 37px 80px;
+}
+
+.conteudo-box-maior {
+    width: 556px;
+    height: 397px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    background: #FFFFFF;
+}
+
+.conteudo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 32px;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.conteudo-titulo h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #3F3F55;
+    padding: 18px;
+}
+
+.conteudo-titulo-direita {
+    display: flex;
+    align-items: center;
+}
+
+.quantia {
+    width: 52px;
+    height: 21px;
+    padding: 0px 19px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+
+    margin-left: 2px;
+}
+
+.box-linha {
+    border: 1px solid #EFF0F7;
+}
+
+.box-titulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.box-titulos strong {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+}
+
+.box-usuario {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 18px 0px;
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.box-usuario span {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.005em;
+    color: #6E6E85;
+}
+
+.box-ver-todos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-ver-todos span {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-top: 12px;
+    color: #DA0175;
+    cursor: pointer;
+}
+
+.verde {
+    color: #1FA7AF;
+    background: #EEF6F6;
+}
+
+.amarelo {
+    color: #C5A605;
+    background: #FCF6DC;
+    padding: 0px 22px;
+}
+
+.vermelho {
+    color: #971D1D;
+    background: #FFEFEF;
+}
+
+.conteudo-contas-home {
+    height: 230px;
+    overflow-y: auto;
+    scrollbar-width: none;
+
+}
+
+.conteudo-contas-home::-webkit-scrollbar {
+    width: 0px;
+}

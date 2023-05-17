@@ -1,0 +1,56 @@
+.detalhes {
+    display: flex;
+    justify-content: center;
+    padding: 19px 80px 0px 80px;
+}
+
+.detalhes div {
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+}
+
+.detalhes img {
+    margin-left: 40px;
+}
+
+.info-detalhe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-detalhe span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: #3F3F55;
+}
+
+.info-detalhe strong {
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #3F3F55;
+}
+
+.detalhe-pago,
+.detalhe-vencido,
+.detalhe-previsto {
+    display: flex;
+    align-items: center;
+}
+
+.detalhe-pago {
+    background: #EEF7F7;
+}
+
+.detalhe-vencido {
+    background: #FFEFEF;
+}
+
+.detalhe-previsto {
+    background: #FCF6DC;
+}

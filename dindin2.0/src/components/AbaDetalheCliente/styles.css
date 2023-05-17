@@ -1,0 +1,249 @@
+.btn-teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 500px;
+    width: 70px;
+    height: 30px;
+}
+
+
+.container-cliente {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F8F9;
+
+}
+
+.menu-cliente {
+    height: 100vh;
+    width: 108px;
+}
+
+.conteudo-cliente {
+    height: 100vh;
+    width: calc(100vw - 108px);
+}
+
+
+.nome-cliente-selecionado {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    margin-top: 28px;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.nome-cliente-selecionado h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.dados-cliente-selecionado {
+    display: grid;
+    grid-template-rows: (5, 150px);
+    flex-direction: column;
+    margin-left: 108px;
+    width: 1100px;
+
+}
+
+.dados-do-cliente,
+.cobranças-do-cliente {
+    background-color: #FFFFFF;
+    width: 1150px;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.cobranças-do-cliente {
+    height: 350px;
+}
+
+.dados-pessoais-cliente {
+    display: flex;
+    margin-left: 35px;
+    width: 1040px;
+}
+
+.titulo-dados {
+    display: flex;
+}
+
+.dados-pessoais-cliente {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.titulo-dados-pessoais,
+.título-cobranças-cliente {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1070px;
+    margin-top: 29px;
+}
+
+.titulo-dados-pessoais h1,
+.título-cobranças-cliente h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3F3F55;
+}
+
+.titulo-dados-pessoais button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+
+    color: #0E8750;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    width: 246px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.dados-contato-cliente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+
+.dados-residenciais {
+    display: grid;
+    grid-template-columns: 275px 212px 230px 170px 130px 70px;
+    margin-top: 24px;
+}
+
+.dados-contato,
+.dados-endereço {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.dados-contato strong,
+.dados-endereço strong,
+.topo-tabela-cobranças-cliente strong {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dados-contato span,
+.dados-endereço span,
+.corpo-tabela-cobranças-cliente span {
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.detalhes-cobranças-cliente {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1150px;
+}
+
+.tabela-cobranças {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 1070px;
+    margin-top: 24px;
+}
+
+.topo-tabela-cobranças-cliente {
+    display: grid;
+    grid-template-columns: 150px 190px 165px 140px 420px;
+    align-items: start;
+
+    margin-top: 10px;
+    margin-bottom: 24px;
+    width: 1040px;
+}
+
+.título-cobranças-cliente button {
+    width: 252px;
+    height: 33px;
+    background: #DA0175;
+    border: 1px solid #DA0175;
+    border-radius: 10px;
+    gap: 4px;
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.strong-tabela {
+    display: flex;
+    gap: 14px;
+}
+
+.corpo-tabela-cobranças-cliente {
+    display: grid;
+    grid-template-columns: 160px 190px 135px 163px 340px 50px;
+    width: 1040px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}
+
+.descriçao-cobrança {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    gap: 25px
+}
+
+.iconesEditar-Deletar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.strong-idCobranca {
+    width: 120px;
+}
+
+.strong-dataVencimento {
+    width: 150px;
+}
+
+.strong-valor-contas {
+    width: 90px;
+}
+
+.tabela-cobranca-detalhe-cliente {
+    height: 150px;
+    width: 1070px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.tabela-cobranca-detalhe-cliente::-webkit-scrollbar {
+    width: 0px;
+}

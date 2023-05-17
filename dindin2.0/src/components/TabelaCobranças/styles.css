@@ -1,0 +1,61 @@
+.tabela-cobrancas {
+    float: center;
+    width: 1116px;
+    height: 690px;
+    margin-bottom: 45px;
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+
+.cobranca-titulos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    border-bottom: 1px solid #EFF0F6;
+}
+
+
+.tabela-cobrancas {
+    width: 1140px;
+    height: 594px;
+    margin-bottom: 45px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.cobranca-titulos {
+    display: grid;
+    grid-template-columns: 170px 150px 120px 170px 150px 318px;
+    place-items: start;
+    border-bottom: 1px solid #EFF0F6;
+    width: 1077px;
+    margin-top: 15px;
+    margin-left: 28px;
+}
+
+.cobranca-titulos strong {
+    width: 130px;
+    height: 55px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    color: #3F3F55;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.cobrancas-todos-clientes {
+    width: 1140px;
+    height: 530px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.cobrancas-todos-clientes::-webkit-scrollbar {
+    width: 0px;
+}

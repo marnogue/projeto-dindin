@@ -1,0 +1,180 @@
+.imagem-cabeca {
+    width: 35px;
+    height: 35px;
+}
+
+.imagem-corpo {
+    width: 37px;
+    height: 28px;
+}
+
+.imagem-xmenor,
+.imagemxmenor2 {
+    width: 19px;
+    height: 19px;
+}
+
+.imagem-vector {
+    width: 208px;
+    height: 208px;
+}
+
+.imagem-barrax,
+.imagem-barrax2 {
+    width: 67px;
+    height: 67px;
+}
+
+.nao-encontrado,
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagem-nao-encontrado {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    padding-top: 120px;
+
+}
+
+.mensagem {
+    gap: 16px
+}
+
+.nao-encontrado {
+    gap: 75px
+}
+
+.mensagem-nao-encontrado {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #F08889;
+
+}
+
+.mensagem-verifique {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #9B9BB2;
+}
+
+.imagem {
+
+    width: 100px;
+    height: 100px;
+}
+
+.clientes-usuarios {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #EFF0F6;
+}
+
+.clientes-usuarios span {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    color: #747488;
+}
+
+.clientes-usuarios:last-child {
+    border: none;
+}
+
+.marcador-inadimplente,
+.marcador-emdia,
+.marcador-pendente {
+    width: 96px;
+    height: 19px;
+    padding-inline: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.marcador-inadimplente {
+    background: #FFEFEF;
+}
+
+.marcador-emdia {
+    background: #EEF6F6;
+}
+
+.marcador-inadimplente,
+.marcador-emdia,
+.marcador-pendente {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.marcador-inadimplente {
+    color: #971D1D !important;
+}
+
+.marcador-emdia {
+    color: #1FA7AF !important;
+}
+
+.marcador-pendente {
+    color: #C5A605;
+}
+
+.marcador-pendente {
+    background: #FCF6DC;
+}
+
+.botao-cobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.botao-cobranca span {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 12px;
+    color: #DA0175;
+}
+
+.botao-cobranca img {
+    width: 80%;
+}
+
+.clientes-usuarios a {
+    text-decoration: none;
+}
+
+.cliente-pointer {
+    cursor: pointer;
+}
+
+.conteudo-tabela-cliente {
+    height: 550px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.conteudo-tabela-cliente::-webkit-scrollbar {
+    width: 0px;
+}

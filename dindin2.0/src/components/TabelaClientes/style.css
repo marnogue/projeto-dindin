@@ -1,0 +1,32 @@
+.tabela-clientes {
+    float: center;
+    width: 1116px;
+    height: 627px;
+    margin-bottom: 45px;
+    border-radius: 30px;
+    background: white;
+}
+
+.clientes-titulos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    border-bottom: 1px solid #EFF0F6;
+}
+
+.clientes-titulos strong {
+    font-family: 'Nunito';
+    font-size: 16px;
+    line-height: 50px;
+    color: #3F3F55;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.ordenacao {
+    cursor: pointer;
+}

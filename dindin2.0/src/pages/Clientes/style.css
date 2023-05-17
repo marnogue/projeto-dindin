@@ -1,0 +1,102 @@
+.conteudo-cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho-clientes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1116px;
+    padding: 30px 0;
+}
+
+.cabecalho-esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-esquerda h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+    color: #3F3F55;
+}
+
+.cabecalho-esquerda img {
+    margin-right: 16px;
+}
+
+.cabecalho-direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 690px;
+}
+
+.cabecalho-direita button {
+    all: unset;
+    width: 266px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #F8F8F9;
+    background: #DA0175;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cabecalho-direita button:hover {
+    opacity: 0.9;
+}
+
+.cabecalho-direita img {
+    cursor: pointer;
+}
+
+.cabecalho-filtro {
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.cabecalho-pesquisa {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho-pesquisa input {
+    all: unset;
+    width: 300px;
+    height: 39px;
+    padding: 0px 38px 0px 12px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+}
+
+.pesquisa-blur {
+    width: 318px;
+    height: 39px;
+    position: absolute;
+    top: 8.75%;
+    background: rgba(218, 1, 117, 0.05);
+    filter: blur(2px);
+}
+
+.cabecalho-pesquisa input::placeholder {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    color: #747488;
+}
+
+.cabecalho-pesquisa img {
+    position: absolute;
+    right: 0;
+    padding-inline: 10px;
+}

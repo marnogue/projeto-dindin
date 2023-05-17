@@ -1,0 +1,42 @@
+.conteudo-tabela-cobranca {
+    display: grid;
+    grid-template-columns: 170px 150px 120px 170px 150px 318px;
+    place-items: start;
+    align-items: center;
+    border-bottom: 1px solid #EFF0F6;
+    width: 1077px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 28px;
+}
+
+.conteudo-tabela-cobranca span {
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cobranca-descricao-tabela {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    width: 318px;
+}
+
+.imagens-editar-cobranca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    width: 100px;
+}
+
+.imagens-editar-cobranca img {
+    cursor: pointer;
+}
+
+.span-tabela-cobranca {
+    width: 318px;
+}

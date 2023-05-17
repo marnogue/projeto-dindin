@@ -1,0 +1,195 @@
+.container_cadastro2 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu2 {
+    width: 34.7%;
+    height: 100%;
+    background-color: #F0F0F5;
+}
+
+.cadastre2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 65.3%;
+    height: 100%;
+}
+
+.form_cadastre2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    height: 367px;
+}
+
+.form_cadastre2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.senha-form-cadastre2 {
+    position: relative;
+}
+
+.senha-form-cadastre2 img {
+    width: 24px;
+    height: 25px;
+    position: absolute;
+    right: 14px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.img_Menu2 {
+    position: absolute;
+    top: 174px;
+    left: 49px;
+}
+
+.img_menu3 {
+    position: absolute;
+    top: 174px;
+    left: 49px;
+}
+
+.etapas_menu2 {
+    position: absolute;
+    top: 178px;
+    left: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.etapas_menu2 strong {
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0E8750;
+    font-size: 18px;
+}
+
+.etapas_menu2 span {
+    margin-bottom: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #3F3F55;
+    font-size: 18px;
+}
+
+.form_cadastre2 h1 {
+    margin-bottom: 52px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #343447;
+}
+
+.form_cadastre2 label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #343447;
+}
+
+.form_cadastre2 input {
+    width: 368px;
+    height: 44px;
+    margin-top: 6px;
+    margin-bottom: 36px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    color: #667085;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 14px;
+}
+
+.cadastre2 button {
+    width: 160px;
+    height: 33px;
+    margin-bottom: 19px;
+    color: #F8F8F9;
+    font-size: 16px;
+    border: 1px solid #DA0175;
+    border-radius: 10px;
+    background-color: #DA0175;
+    cursor: pointer;
+}
+
+.cadastre2 button:hover {
+    opacity: 0.9;
+}
+
+.erroSenha{
+    color: rgb(201, 99, 99);
+}
+
+.cadastre2 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.barra-imagem {
+    position: absolute;
+    bottom: 64px;
+}
+
+span a {
+    color: #DA0175;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.cadastre2-sucesso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cadastre2-sucesso-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 512px;
+    background: #F0F0F5;
+    border-radius: 30px;
+}
+
+.cadastre2-sucesso-container span {
+    margin-top: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #343447;
+}
+
+.cadastre2-sucesso button {
+    margin-top: 30px;
+    margin-bottom: 69px;
+}
+
+div .botao-para-login a{
+    margin-top: 30px;
+    margin-bottom: 69px;
+    color: #F8F8F9;
+    text-decoration: none;
+}

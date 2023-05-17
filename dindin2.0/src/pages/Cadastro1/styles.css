@@ -1,0 +1,127 @@
+.container_cadastro1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu1 {
+    width: 34.7%;
+    height: 100%;
+
+    background-color: #F0F0F5;
+}
+
+.cadastre1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 65.3%;
+    height: 100%;
+}
+
+.img_Menu1 {
+    position: absolute;
+    top: 174px;
+    left: 49px;
+}
+
+.etapas_menu1 {
+    position: absolute;
+    top: 178px;
+    left: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.etapas_menu1 strong {
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0E8750;
+    font-size: 18px;
+}
+
+.etapas_menu1 span {
+    margin-bottom: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #3F3F55;
+    font-size: 18px;
+}
+
+.form_cadastre1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 355px;
+    height: 367px;
+}
+
+.form_cadastre1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_cadastre1 h1 {
+    margin-bottom: 52px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #343447;
+}
+
+.form_cadastre1 label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form_cadastre1 input {
+    width: 368px;
+    height: 44px;
+    margin-top: 6px;
+    margin-bottom: 36px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    color: #667085;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 14px;
+}
+
+.cadastre1 button {
+    width: 160px;
+    height: 33px;
+    margin-bottom: 19px;
+    border: 1px solid #DA0175;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #F8F8F9;
+    background-color: #DA0175;
+    cursor: pointer;
+}
+
+.cadastre1 span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cadastre1 img {
+    position: absolute;
+    bottom: 64px;
+}
+
+span a {
+    color: #DA0175;
+    text-decoration: underline;
+    padding: 5px;
+}

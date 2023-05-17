@@ -1,0 +1,157 @@
+.cadastrar-cobranca {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 600px;
+    height: 754px;
+
+    background: #ffffff;
+    border-radius: 30px;
+
+    padding: 51px;
+
+}
+
+.cadastrar-cobranca-erro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 600px;
+    height: 754px;
+
+    background: #ffffff;
+    border-radius: 30px;
+
+    padding: 51px;
+}
+
+.modal-titulo-cobranca {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.modal-titulo-cobranca h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #343447;
+}
+
+.form-cadastrar-cobranca {
+    display: flex;
+    flex-direction: column;
+
+    width: 487px;
+    height: 590px;
+
+    font-family: 'Nunito';
+    font-size: 18px;
+}
+
+input {
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+
+.container-descricao {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 88px;
+    width: 485px;
+
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+
+    text-align: left;
+}
+
+textarea {
+    height: 44px;
+    padding: 12px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-family: 'Nunito';
+    font-size: 18px;
+}
+
+
+.status-cobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 487px;
+    margin-bottom: 130px;
+}
+
+.form-inputs-juntos-cobranca {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    gap: 24px;
+}
+
+.inputRadio {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+}
+
+.divRadio {
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    width: 487px;
+    height: 48px;
+    background: #f0f0f5;
+    cursor: pointer;
+}
+
+.radio {
+    width: 50px;
+    height: 100%;
+    appearance: none;
+}
+
+.check {
+    background-image: url('../../assets/check.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: green;
+}
+
+.notchecked {
+    background-image: url('../../assets/uncheck.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inputRadio>.divRadio:first-of-type {
+    margin-bottom: 8px;
+}
+
+#paga,
+#pendente {
+    background-color: #f0f0f5;
+    border: none;
+}

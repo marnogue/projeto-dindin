@@ -1,0 +1,68 @@
+.container-cobranças {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #F8F8F9;
+
+}
+
+.menu-cobranças {
+    width: 108px;
+    height: 100vh;
+}
+
+.principal-cobranças {
+    width: calc(100vw - 108px);
+    height: 100vh;
+}
+
+.topo-título-cobrança {
+    width: 1116px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.título-cobrança,
+.pesquisa-cobranças {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.pesquisa-cobranças {
+    /* width: 1116px; */
+
+}
+
+.pesquisa-cobranças input {
+    width: 318px;
+    height: 39px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+}
+
+.título-cobrança h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+}
+
+input::placeholder {
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.buscar-cobrança {
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+}
